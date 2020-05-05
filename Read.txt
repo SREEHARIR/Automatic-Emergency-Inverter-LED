@@ -1,0 +1,13 @@
+Circuit that can differentiate between power failure (power cut) and mains ON but switch off
+
+I saw a bulb today that can differentiate between mains power off and switch off. It was being marketed as an emergency led bulb that will automatically switch from AC to internal battery when the mains power gets cut. It confused me because it was still being controlled by the external switch, even after it switched to internal battery. I have no idea how such a circuit would be designed. Any help is appreciated.
+
+Characteristics
+Switch ON + Power Available = Bulb ON and internal battery charging
+Switch ON + Power Failure = Bulb ON
+Switch OFF + Power Available = Bulb OFF
+Switch OFF + Power Failure = Bulb OFF
+
+Adding video of another product with same working.
+https://www.youtube.com/watch?v=
+
