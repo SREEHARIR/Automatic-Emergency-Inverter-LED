@@ -1,0 +1,24 @@
+Working of Automatic Emergency Led Lamp
+
+BTP - Battery Positive
+BTN - Battery Negative
+VL - Volatge Line
+VN - Voltage Neutral
+GND - Ground
+EN - Enable ???
+
+(R12 --- R19 ) -> 8 times ( parallel 4.7R ) = 0.58R (1/4w * 8)
+(R1||R2) -> 1.5||2 = 0.857 
+
+C1,C3,C5,R1,R2,R3,R4,T1(EE10),D1 are taken from the design of the KP1062 IC (Led Power Switch/Led Driver)
+
+CX2 - acts as Filter at end of rectifier
+BD1 - Rectifier (Full Bridge)
+
+D4,C4,R20 - ensures that the voltage of BAT does not exceed 5.6V
+
+R5 - ????
+D3,D4 - ????
+R7,R9 - Limits Voltage to Battery Charging IC. - By How much ???
+
+How Does the Circuit Turn ON Automatically ???
